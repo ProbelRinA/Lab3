@@ -15,7 +15,7 @@ public class Conversion
         textint = Integer.valueOf(text); //Konwersujemy String na int
         textlong = Long.valueOf(text); //Konwersujemy String na long
         textfloat = Float.valueOf(text2); //Konwersujemy String na float
-        textdouble = Double.valueOf(text2);//Konwersja String na double
+        textdouble = Double.valueOf(text2);//Konwersujemy String na double
 
         //Wyświetlamy wyniki konwersji
         System.out.println("Converting String: " + text + " into Int: " + textint);
