@@ -13,7 +13,7 @@ public class ComplementingArrays
         return table;
     }
 
-    // Metoda do uzupełniania tablicy dwuwymiarowej liczbami losowymi
+    //Metoda do uzupełniania tablicy dwuwymiarowej liczbami losowymi
     public static int[][] CreateTwoDimensionalArray(int rows, int columns) {
         int[][] table = new int[rows][columns];
         Random rand = new Random();
